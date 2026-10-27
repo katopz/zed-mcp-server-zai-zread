@@ -66,7 +66,6 @@ The ZAI Zread MCP Server provides these tools to the LLM:
 
 The extension uses [supergateway](https://github.com/supercorp-ai/supergateway) to bridge the remote Streamable HTTP MCP server at `https://api.z.ai/api/mcp/zread/mcp` to a local stdio connection that Zed can communicate with.
 
-
 ## Lighter alternative: connect over HTTP, no bridge
 
 Zed can talk to the remote endpoint directly. Declare the server under the same
